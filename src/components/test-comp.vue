@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-const [name] = /* hoist-static*/ ['test'];
+const [name] = /* hoist-static*/ ['VarCompName'];
 
 defineOptions({
   name
