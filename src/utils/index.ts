@@ -1,2 +1,4 @@
-export * from './is'
-export * from './log'
+export { is } from './is';
+export {
+	log
+} from './log';

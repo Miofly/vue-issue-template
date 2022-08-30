@@ -1,10 +1,11 @@
 <script lang="ts" setup>
-	// import { log } from './utils';
-	import { log } from './utils/log';
+  import TestComp from '@/components/test-comp.vue';
+	import { log } from './utils';
 
   log(11)
 </script>
 
 <template>
   <div>test</div>
+  <TestComp></TestComp>
 </template>
