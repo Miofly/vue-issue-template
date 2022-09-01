@@ -4,7 +4,6 @@
 	import { log } from './utils';
   import { NButton } from 'naive-ui';
 
-
   onMounted(() => {
 
   });
@@ -12,7 +11,7 @@
 </script>
 
 <template>
-  <TestComp>
+  <TestComp test="test" name="name" class-name="ddd">
     <template #title>
     	111
     </template>
