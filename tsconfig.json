@@ -3,7 +3,8 @@
   "include": [
 	  "env.d.ts",
 	  "src/**/*",
-	  "src/**/*.vue"
+	  "src/**/*.vue",
+    "components.d.ts"
   ],
   "compilerOptions": {
     "baseUrl": ".",
@@ -13,6 +14,7 @@
     "types": [
       "vite/client",
       "node",
+      "components.d.ts",
       "unplugin-vue-macros/macros-global"
     ]
   },

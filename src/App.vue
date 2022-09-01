@@ -1,8 +1,6 @@
 <script lang="ts" setup>
   import { onMounted } from 'vue';
-  import TestComp from '@/components/test-comp.vue';
 	import { log } from './utils';
-  import { NButton } from 'naive-ui';
 
   onMounted(() => {
 
