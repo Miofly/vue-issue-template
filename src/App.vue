@@ -3,6 +3,10 @@
 	import { log } from './utils';
   import { NButton } from 'naive-ui';
 
+
+  onMounted(() => {
+
+  });
   log(11)
 </script>
 
