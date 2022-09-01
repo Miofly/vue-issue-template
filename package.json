@@ -9,8 +9,9 @@
     "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
-    "vite-plugin-checker": "^0.4.9",
+    "naive-ui": "^2.33.2",
     "unplugin-vue-macros": "^0.11.0",
+    "vite-plugin-checker": "^0.4.9",
     "vue": "^3.2.37"
   },
   "devDependencies": {
