@@ -15,6 +15,9 @@
     </template>
   </TestComp>
 
+  <button
+  style="animation: wf-rotate 2s linear infinite">11</button>
+
   <n-button color="#8a2be2">
     <template #icon>
       111
@@ -22,3 +25,17 @@
     #8a2be2
   </n-button>
 </template>
+
+<style lang="less">
+  @pro-namespace: wf;
+
+  @keyframes ~"@{pro-namespace}-rotate" {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+</style>
