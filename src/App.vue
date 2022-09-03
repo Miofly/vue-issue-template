@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-  import { onMounted } from 'vue';
+  import { onMounted, ref } from 'vue';
 	import { log } from './utils';
 
   onMounted(() => {
@@ -26,17 +26,3 @@
     #8a2be2
   </n-button>
 </template>
-
-<style lang="less">
-  @pro-namespace: wf;
-
-  @keyframes ~"@{pro-namespace}-rotate" {
-    from {
-      transform: rotate(0deg);
-    }
-
-    to {
-      transform: rotate(360deg);
-    }
-  }
-</style>

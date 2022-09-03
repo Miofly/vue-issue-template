@@ -20,4 +20,15 @@ export default defineConfig({
 			exclude: []
 		})
 	],
+	css: {
+		preprocessorOptions: {
+			less: {
+				javascriptEnabled: true,
+				// 在全局less文件后面添加变量的配置。modifyVars 对应的对象属性名会加上@追加到less文件后。
+				modifyVars: {
+					hack: `true; @import (reference) "${resolve(`./src/index.less`)}";`
+				}
+			}
+		},
+	}
 });
