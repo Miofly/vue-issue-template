@@ -5,6 +5,7 @@
   onMounted(() => {
 
   });
+  let test = ref();
   log(11)
 </script>
 
